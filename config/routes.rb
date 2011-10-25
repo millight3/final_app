@@ -1,5 +1,5 @@
 FinalApp::Application.routes.draw do
-  get "home/index"
+  get "movies/index"
 
   resources :movies
 
