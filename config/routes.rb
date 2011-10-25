@@ -3,7 +3,7 @@ FinalApp::Application.routes.draw do
 
   resources :movies
   
-  match "movies" => "movies#show"
+  match "/movies" => "movie#movies"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
